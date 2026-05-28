@@ -1,0 +1,24 @@
+[project]
+name = "ydn"
+version = "0.1.0"
+description = "Your Daily Navigator - personal AI chief of staff"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "python-telegram-bot>=21.6",
+    "anthropic>=0.39.0",
+    "supabase>=2.9.0",
+    "psycopg[binary]>=3.2.0",
+    "google-auth>=2.35.0",
+    "google-auth-oauthlib>=1.2.0",
+    "google-api-python-client>=2.149.0",
+    "upstash-redis>=1.2.0",
+    "python-dotenv>=1.0.1",
+    "httpx>=0.27.0",
+    "pydantic>=2.9.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
