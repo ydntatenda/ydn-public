@@ -86,3 +86,9 @@ ydn is the system I built to run my life. It watches every domain at once, holds
 ---
 
 *Libraries (workout, nutrition, sleep, work ledger) are personal and kept in a private repo.*
+
+---
+
+## What's not here
+
+The `libraries/` folder is excluded for privacy. Libraries are structured markdown documents that Hermes reasons over — they contain personal targets, schedules, and operational data (body metrics, calorie targets, fundraising pipeline, stakeholder details). The structure is visible in `scripts/load_libraries.py`. If you're building something similar, you'd replace these with your own.
