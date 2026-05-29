@@ -42,6 +42,13 @@ ydn is the system I built to run my life. It watches every domain at once, holds
 - Flags stale blocked items (>7 days no movement)
 - Flags stale decisions (>21 days no decision)
 
+## Intelligence
+
+- Every morning at 06:15, scans the web across 8 domains for developments that could affect the startup — market signals, competitor activity, regulatory shifts, partner mentions, funding announcements
+- Filters everything through a relevance test — no noise, only actionable signals
+- Delivers a structured intel brief to Telegram before the morning work block starts
+- Logs every scan; weekly review surfaces the week's top signals and flags domains going quiet
+
 ## Inbox and calendar
 
 - Watches my Gmail every 15 minutes
