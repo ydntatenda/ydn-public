@@ -92,3 +92,5 @@ ydn is the system I built to run my life. It watches every domain at once, holds
 ## What's not here
 
 The `libraries/` folder contains sanitized example files showing structure and schema. Real libraries with personal targets, schedules, and operational data are kept in a private repo. Libraries are structured markdown documents that Hermes reasons over — they contain personal targets, schedules, and operational data (body metrics, calorie targets, fundraising pipeline, stakeholder details). The structure is visible in `scripts/load_libraries.py`. If you're building something similar, you'd replace these with your own.
+
+| `ydn-intel-scan` | Morning web scan across 8 domains — surfaces actionable signals relevant to the startup via Telegram at 06:15 daily |
