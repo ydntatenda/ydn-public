@@ -86,6 +86,7 @@ ydn is the system I built to run my life. It watches every domain at once, holds
 | `ydn-code-agent` | Autonomous PR shipping with approval flow |
 | `ydn-email-draft` | Follow-up email drafting after calls |
 | `ydn-voice-memo` | Voice memo transcription and intent classification |
+| `ydn-intel-scan` | Morning web scan across 8 domains — surfaces actionable signals via Telegram at 06:15 daily |
 
 ---
 
